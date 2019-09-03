@@ -1,6 +1,6 @@
 # PAT-Solutions
 
-PAT advance level c++ solutions
+PAT advanced level c++ solutions
 
 ## PAT
 
