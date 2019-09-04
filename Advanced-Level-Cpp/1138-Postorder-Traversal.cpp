@@ -7,7 +7,7 @@ void to_postorder(int inl, int inr, int prel) {
     int idx;
     for (idx = inl; idx <= inr; idx++) { if (in[idx] == pre[prel]) { break; } }
     to_postorder(inl, idx - 1, prel + 1);
-    to_postorder(idx + 1, inr, prel + idx - inl);
+    to_postorder(idx + 1, inr, prel + idx - inl + 1);
     post.push_back(pre[prel]);
 }
 int main() {
